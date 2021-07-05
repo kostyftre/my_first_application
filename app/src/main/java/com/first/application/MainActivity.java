@@ -100,9 +100,23 @@ public class MainActivity extends AppCompatActivity {
 
     private void setOnCheckboxBehavior(){
         boolean isChecked = checkBox.isChecked();
-        checkBox.setOnCheckedChangeListener((buttonView, isChecked1) -> {
-        //если поменялось, то что-то делаем
+//
+//        checkBox.setOnCheckedChangeListener((buttonView, isChecked1) -> {
+//        textView_1.setText("Молодец, что поставил галочку!");
+//
+//        });
 
+
+
+        checkBox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (checkBox.isChecked()){
+                    textView_1.setText("Молодец, что поставил галочку!");
+                }
+                else
+                    textView_1.setText(".!.");
+            }
         });
 
     }
