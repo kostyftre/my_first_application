@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">my_first_application</string>
+    <string name="hi_mark">Hi Mark!</string>
+    <string name="new_text">Пиво</string>
+    <string name="option_1">Опция 1</string>
+    <string name="buttonText">Тык</string>
+    <string name="text_view_1">Тык для появления надписи, что ты вввёл выше</string>
+    <string name="press_me">Ставь галочку</string>
+
+
 </resources>
